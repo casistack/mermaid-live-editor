@@ -3,9 +3,21 @@ services:
   mermaid:
     build:
       context: .
+      dockerfile: Dockerfile-mine
       target: mermaid-dev
+      args:
+        MERMAID_RENDERER_URL: ${MERMAID_RENDERER_URL}
+        MERMAID_KROKI_RENDERER_URL: ${MERMAID_KROKI_RENDERER_URL}
+        MERMAID_ANALYTICS_URL: ${MERMAID_ANALYTICS_URL}
+        MERMAID_DOMAIN: ${MERMAID_DOMAIN}
     volumes:
-      - ./src:/app/src
-    ports:
-      - :3000
-      - :24678
+      - mermaid-src:/app/src
+    environment:
+      - NODE_ENV=${NODE_ENV:-production}
+      - MERMAID_RENDERER_URL=${MERMAID_RENDERER_URL}
+      - MERMAID_KROKI_RENDERER_URL=${MERMAID_KROKI_RENDERER_URL}
+      - MERMAID_ANALYTICS_URL=${MERMAID_ANALYTICS_URL}
+      - MERMAID_DOMAIN=${MERMAID_DOMAIN}
+
+volumes:
+  mermaid-src:
