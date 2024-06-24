@@ -2834,9 +2834,9 @@ eslint-plugin-postcss-modules@^2.0.0:
     postcss-modules-values "^4.0.0"
 
 eslint-plugin-svelte@^2.35.1:
-  version "2.39.4"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-svelte/-/eslint-plugin-svelte-2.39.4.tgz#540e24fdd50e327785d38086faa32f83cad81dc0"
-  integrity sha512-MAuMNCOQAfCNaOlJfzC/ZnhQi2YwKdQvjYTFs99QIMWTMhN8nIatwQf8X50kCoSfQb7Q8dadGu8QUOOMoCCMTA==
+  version "2.40.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-svelte/-/eslint-plugin-svelte-2.40.0.tgz#31ce5c717060178c96b9390c75093e0c656cddaa"
+  integrity sha512-JuOzmfVaMeEkBASL7smHu3tIU4D9rWkHuRNV+zm/5zgAwiZVvxrXM7TcfIOS+U7VXOr4uCZuE+kZTVTzS0IE+Q==
   dependencies:
     "@eslint-community/eslint-utils" "^4.4.0"
     "@jridgewell/sourcemap-codec" "^1.4.15"
@@ -2848,7 +2848,7 @@ eslint-plugin-svelte@^2.35.1:
     postcss-safe-parser "^6.0.0"
     postcss-selector-parser "^6.1.0"
     semver "^7.6.2"
-    svelte-eslint-parser "^0.38.0"
+    svelte-eslint-parser "^0.39.1"
 
 eslint-plugin-tailwindcss@^3.13.1:
   version "3.17.3"
@@ -4730,10 +4730,10 @@ mlly@^1.4.2, mlly@^1.7.0:
     pkg-types "^1.1.0"
     ufo "^1.5.3"
 
-monaco-editor@0.49.0:
-  version "0.49.0"
-  resolved "https://registry.yarnpkg.com/monaco-editor/-/monaco-editor-0.49.0.tgz#4e80e9859feb2c421def3cef194d12d822606472"
-  integrity sha512-2I8/T3X/hLxB2oPHgqcNYUVdA/ZEFShT7IAujifIPMfKkNbLOqY8XCoyHCXrsdjb36dW9MwoTwBCFpXKMwNwaQ==
+monaco-editor@0.50.0:
+  version "0.50.0"
+  resolved "https://registry.yarnpkg.com/monaco-editor/-/monaco-editor-0.50.0.tgz#44e62b124c8aed224e1d310bbbe6ffd6d5122413"
+  integrity sha512-8CclLCmrRRh+sul7C08BmPBP3P8wVWfBHomsTcndxg5NRCEPfu/mc2AGU8k37ajjDVXcXFc12ORAMUkmk+lkFA==
 
 mri@^1.1.0:
   version "1.2.0"
@@ -6361,10 +6361,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-svelte-eslint-parser@^0.38.0:
-  version "0.38.0"
-  resolved "https://registry.yarnpkg.com/svelte-eslint-parser/-/svelte-eslint-parser-0.38.0.tgz#a75e54c31531d44cbef3edbbb6a57a8a546abf31"
-  integrity sha512-5qyDMW19cqafbRua5xLKI4wHfHapDx1emu93Vl3Po+2qcV9mSXL/XhmgBN23S9ddE4SQ7vrF7V6Q2a+VMfmUQg==
+svelte-eslint-parser@^0.39.1:
+  version "0.39.2"
+  resolved "https://registry.yarnpkg.com/svelte-eslint-parser/-/svelte-eslint-parser-0.39.2.tgz#f1c0d2be625059f5717661f4bb17e4489032b17c"
+  integrity sha512-87UwLuWTtDIuzWOhOi1zBL5wYVd07M5BK1qZ57YmXJB5/UmjUNJqGy3XSOhPqjckY1dATNV9y+mx+nI0WH6HPA==
   dependencies:
     eslint-scope "^7.2.2"
     eslint-visitor-keys "^3.4.3"
@@ -6680,9 +6680,9 @@ type-fest@^0.8.1:
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
 
 typescript@^5.3.3:
-  version "5.4.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.5.tgz#42ccef2c571fdbd0f6718b1d1f5e6e5ef006f611"
-  integrity sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.5.2.tgz#c26f023cb0054e657ce04f72583ea2d85f8d0507"
+  integrity sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==
 
 ufo@^1.5.3:
   version "1.5.3"
